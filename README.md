@@ -136,3 +136,5 @@ Ok, so if you move your mouse over the dots, you can see the names that correspo
 In this section, we saw how we use data visualizations to better understand the data.  A cartesian coordinate system nicely represents two dimensional data.  It allows us to represent a point's $x$ value by placing the point horizontally at the correct spot on the x-axis.  It represents a point's $y$ value by placing the point at the correct spot along the y-axis.
 
 To display the data with `plotly` we need to do a couple of things.  First, we install plotly by going to our terminal and running `pip install plotly`.  Then to use the library, we import the `plotly` library into our notebook.  Once the library is loaded in our notebook, it's time to use it.  We create a new dictionary with keys of $x$ and $y$, with each key pointing to a list of the $x$ or $y$ values of our points.  To clean up the appearance we set the `mode` attribute equal to `'markers'`.
+
+Thanks for reading, hope you like it 
